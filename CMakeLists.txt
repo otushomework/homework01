@@ -40,6 +40,7 @@ target_link_libraries(test_version
   ${PROJECT_NAME}_lib
 )
 
+
 #куда закидывать cli после установки готового пакета
 install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION bin)
 
